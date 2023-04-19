@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid {
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid black;
+}
